@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="cellOfThirdTableView" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellOfThirdTableView" rowHeight="266" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="WeiXin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="vdm-wm-aUe">
+                        <rect key="frame" x="5" y="0.0" width="310" height="149.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fN1-ak-f7T">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="40"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小白兔" translatesAutoresizingMaskIntoConstraints="NO" id="phq-Ve-wL9">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="5qp-zM-HEw"/>
+                                            <constraint firstAttribute="width" secondItem="phq-Ve-wL9" secondAttribute="height" multiplier="1:1" id="PPb-1v-OU2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="3001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正能量粉碎机" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcO-n2-dCb">
+                                        <rect key="frame" x="45" y="0.0" width="210" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="3002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32分钟前" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YoA-gS-bXY">
+                                        <rect key="frame" x="260" y="0.0" width="50" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="Y3z-mC-Yn3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="gF3-f5-8lV">
+                                <rect key="frame" x="0.0" y="42" width="310" height="73.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="3003" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关于意大利军的战斗力，排名第一的那个辟谣贴在知乎上被转了五次。然而这个辟谣贴和造谣帖毫无区别，很有点周带鱼大战袁腾飞的感觉" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSc-My-WAR">
+                                        <rect key="frame" x="0.0" y="0.0" width="198" height="73.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="意大利国旗" translatesAutoresizingMaskIntoConstraints="NO" id="QQB-4a-Fm9">
+                                        <rect key="frame" x="200" y="0.0" width="110" height="73.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="QQB-4a-Fm9" secondAttribute="height" multiplier="1.5:1" id="cF9-zs-O6M"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="VyD-f2-HBL">
+                                <rect key="frame" x="0.0" y="117.5" width="310" height="25"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="lRL-Nk-2Vy">
+                                        <rect key="frame" x="0.0" y="0.0" width="116.5" height="25"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="3005" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMi-M7-JSR">
+                                                <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="38K-fV-aD9"/>
+                                                    <constraint firstAttribute="width" secondItem="VMi-M7-JSR" secondAttribute="height" multiplier="1:1" id="Ml6-kw-wxc"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="△"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="3006" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="606" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0A3-xs-4hC">
+                                                <rect key="frame" x="27" y="0.0" width="89.5" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" tag="3007" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oX-Aa-5Zo">
+                                        <rect key="frame" x="116.5" y="0.0" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="7oX-Aa-5Zo" secondAttribute="height" multiplier="1:1" id="yG7-mD-hUc"/>
+                                        </constraints>
+                                        <state key="normal" title="☞"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="3008" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="64" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfu-mn-hOK">
+                                        <rect key="frame" x="141.5" y="0.0" width="143.5" height="25"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="3009" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWd-Iw-CKy">
+                                        <rect key="frame" x="285" y="0.0" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="VWd-Iw-CKy" secondAttribute="height" multiplier="1:1" id="sim-M2-2Qc"/>
+                                        </constraints>
+                                        <state key="normal" title="・・・"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="lRL-Nk-2Vy" firstAttribute="leading" secondItem="VyD-f2-HBL" secondAttribute="leading" id="CSF-A9-N0i"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XfR-I8-vU4">
+                                <rect key="frame" x="0.0" y="144.5" width="310" height="5"/>
+                                <color key="backgroundColor" white="0.79107805365296802" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="kVR-E9-ZXv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vdm-wm-aUe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="BgM-1h-s2M"/>
+                    <constraint firstAttribute="bottom" secondItem="vdm-wm-aUe" secondAttribute="bottom" id="UR5-aK-gqd"/>
+                    <constraint firstAttribute="trailing" secondItem="vdm-wm-aUe" secondAttribute="trailing" constant="5" id="m81-KH-JRF"/>
+                    <constraint firstItem="vdm-wm-aUe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="w6b-yi-zbn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-57.971014492753625" y="123.21428571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="小白兔" width="156" height="150"/>
+        <image name="意大利国旗" width="502" height="482"/>
+    </resources>
+</document>

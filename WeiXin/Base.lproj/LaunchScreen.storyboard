@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Et7-Gn-XOF">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--欢迎跳转页面-->
+        <scene sceneID="oEI-bR-CBE">
+            <objects>
+                <viewController id="Et7-Gn-XOF" userLabel="欢迎跳转页面" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PKx-qX-w8m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="知学堂" translatesAutoresizingMaskIntoConstraints="NO" id="0s4-ih-9mf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.2116968035697937" green="0.8115953803062439" blue="0.66084611415863037" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0s4-ih-9mf" firstAttribute="top" secondItem="oeT-Kz-Gqe" secondAttribute="top" constant="-44" id="4Jk-bI-atI"/>
+                            <constraint firstItem="oeT-Kz-Gqe" firstAttribute="bottom" secondItem="0s4-ih-9mf" secondAttribute="bottom" constant="-34" id="mge-Zf-sM5"/>
+                            <constraint firstItem="0s4-ih-9mf" firstAttribute="leading" secondItem="oeT-Kz-Gqe" secondAttribute="leading" id="mnu-Gl-51X"/>
+                            <constraint firstItem="oeT-Kz-Gqe" firstAttribute="trailing" secondItem="0s4-ih-9mf" secondAttribute="trailing" id="ykQ-wE-9Iz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oeT-Kz-Gqe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vgm-6v-VCo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1481" y="-575"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="知学堂" width="750" height="1334"/>
+    </resources>
+</document>
